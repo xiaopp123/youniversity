@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>世界大学名录</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="css/youniversity.css" rel="stylesheet" type="text/css">
+<style>
+</style>
+
+</head>
+         
+<nav class="navbar navbar-default">
+  <div class="container">
+      <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+             主页
+          </a>
+           <a href="#" class="navbar-brand">
+             联系我们
+          </a>
+      </div>
+  </div>
+</nav>
+<div class="container">
+     <div id="log">
+         <img src="imag/log.jpg" name="log" id="log" />
+     </div>
+     <div class="container">
+         <div class="row" style="background-image:url(imag/bg.jpg); height:180px">
+             
+             <div class="row" style="margin-top:60px">
+                <div class="col-md-2 col-2"></div>
+             	<div class="col-md-6 col-6">
+                 <input id="search" type="text" class="form-control" placeholder="Search">
+                 </div>
+        
+             	<div class="col-md-4 col-4"><button type="button" class="btn btn-info">&nbsp;搜&nbsp;&nbsp;索&nbsp;</button></div>
+             </div>
+             
+             <div class="row" style="margin-top:5px">
+                 <div class="col-md-2 co-2"></div>
+                 <div class="col-md-1 co-1"><button type="button" class="btn btn-danger">双一流&nbsp;</button></div>
+                 <div class="col-md-1 co-1"><button type="button" class="btn btn-danger">一流学科</button></div>
+                 <div class="col-md-1 co-1"><button type="button" class="btn btn-danger">常春藤&nbsp;</button></div>
+                 <div class="col-md-1 co-1"><button type="button" class="btn btn-danger">TH9&nbsp;&nbsp;</button></div>
+                 <div class="col-md-6 col-6"></div>
+              
+             </div>
+         </div>
+     </div>
+     <div class="container">
+     	<div class="row">
+            <!-- 大学 -->
+            <div class="col-md-8">
+                <!-- 导航 -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab1" data-toggle="tab">地区</a></li>
+                    <li><a href="#tab2" data-toggle="tab">等级</a></li>
+                    <li><a href="#tab3" data-toggle="tab">类别</a></li>
+                    <li><a href="#tab4" data-toggle="tab">更多&gt;&gt;</a></li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                      <table id="youniversityTable"  class="table table-reflow" >
+                        <tbody>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">中国</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1_1.png" alt="Thumbnail image"><div><a href="http://www.tsinghua.edu.cn/">清华大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1_2.png" alt="Thumbnail image"><div><a href="http://www.pku.edu.cn">北京大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1_3.png" alt="Thumbnail image"><div><a href="http://www.whu.edu.cn/index.html">武汉大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1_4.png" alt="Thumbnail image"><div><a href="http://www.fudan.edu.cn">复旦大学</a></div></td>
+                        </tr>
+             
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle;"><p class="font-weight-bold">美国</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2_1.png" alt="Thumbnail image"><div><a href="https://www.harvard.edu/">哈佛大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2_2.png" alt="Thumbnail image"><div><a href="https://www.princeton.edu/">普林斯顿大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2_3.png" alt="Thumbnail image"><div><a href="https://www.yale.edu/">耶鲁大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2_4.png" alt="Thumbnail image"><div><a href="http://www.mit.edu/">麻省工学院</a></div></td>
+                        </tr>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle;"><p class="font-weight-bold">英国</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3_1.png" alt="Thumbnail image"><div><a href="http://www.cam.ac.uk/">剑桥大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3_2.png" alt="Thumbnail image"><div><a href="http://www.ox.ac.uk/">牛津大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3_3.png" alt="Thumbnail image"><div><a href="https://www.st-andrews.ac.uk/">圣安德鲁斯大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3_4.png" alt="Thumbnail image"><div><a href="https://www.dur.ac.uk/">杜伦大学</a></div></td>
+                        </tr>
+                        <tr height="100">
+                         <th width="100" style="vertical-align:middle;"><p class="font-weight-bold">加拿大</p></th>
+                         <td width="175"><img class="img-thumbnail" src="imag/1_4_1.png" alt="Thumbnail image"><div><a href="http://www.mcgill.ca/">麦吉尔大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/1_4_2.png" alt="Thumbnail image"><div><a href="https://www.utoronto.ca/">多伦多大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/1_4_3.png" alt="Thumbnail image"><div><a href="http://www.queensu.ca/">女王大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/1_4_4.png" alt="Thumbnail image"><div><a href="https://www.ubc.ca/">英属哥伦比亚大学大学</a></div></td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div> 
+                    <div class="tab-pane" id="tab2">
+                        <table id="youniversityTable"  class="table table-reflow">
+                        <tbody>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">美国</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1.png" alt="Thumbnail image"><div><a href="http://www.tsinghua.edu.cn/">清华大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2.png" alt="Thumbnail image"><div><a href="http://www.pku.edu.cn">北京大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3.png" alt="Thumbnail image"><div><a href="http://www.whu.edu.cn/index.html">武汉大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_4.png" alt="Thumbnail image"><div><a href="http://www.fudan.edu.cn">复旦大学</a></div></td>
+                        </tr>
+             
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">美国</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_1.png" alt="Thumbnail image"><div><a href="https://www.harvard.edu/">哈佛大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_2.png" alt="Thumbnail image"><div><a href="https://www.princeton.edu/">普林斯顿大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_3.png" alt="Thumbnail image"><div><a href="https://www.yale.edu/">耶鲁大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_4.png" alt="Thumbnail image"><div><a href="http://www.mit.edu/">麻省工学院</a></div></td>
+                        </tr>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">美国</p></th>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                        </tr>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">加拿大</p></th>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                          <td width="175">&nbsp;</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                    <table id="youniversityTable"  class="table table-reflow">
+                        <tbody>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">音乐类</p></th>
+                          <!-- <th scope="row" width="100">音乐类</th> -->
+                          <td width="175"><img class="img-thumbnail" src="imag/1_1.png" alt="Thumbnail image"><div><a href="http://www.tsinghua.edu.cn/">清华大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_2.png" alt="Thumbnail image"><div><a href="http://www.pku.edu.cn">北京大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_3.png" alt="Thumbnail image"><div><a href="http://www.whu.edu.cn/index.html">武汉大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/1_4.png" alt="Thumbnail image"><div><a href="http://www.fudan.edu.cn">复旦大学</a></div></td>
+                        </tr>
+             
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">电影类</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_1.png" alt="Thumbnail image"><div><a href="https://www.harvard.edu/">哈佛大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_2.png" alt="Thumbnail image"><div><a href="https://www.princeton.edu/">普林斯顿大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_3.png" alt="Thumbnail image"><div><a href="https://www.yale.edu/">耶鲁大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/2_4.png" alt="Thumbnail image"><div><a href="http://www.mit.edu/">麻省工学院</a></div></td>
+                        </tr>
+                        <tr height="100">
+                          <th width="100" style="vertical-align:middle"><p class="font-weight-bold">医学类</p></th>
+                          <td width="175"><img class="img-thumbnail" src="imag/3_1.png" alt="Thumbnail image"><div><a href="http://www.cam.ac.uk/">剑桥大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/3_2.png" alt="Thumbnail image"><div><a href="http://www.ox.ac.uk/">牛津大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/3_3.png" alt="Thumbnail image"><div><a href="https://www.st-andrews.ac.uk/">圣安德鲁斯大学</a></div></td>
+                          <td width="175"><img class="img-thumbnail" src="imag/3_4.png" alt="Thumbnail image"><div><a href="https://www.dur.ac.uk/">杜伦大学</a></div></td>
+                        </tr>
+                        <tr height="100">
+                         <th width="100" style="vertical-align:middle"><p class="font-weight-bold">军事类</p></th>
+                         <td width="175"><img class="img-thumbnail" src="imag/4_1.png" alt="Thumbnail image"><div><a href="http://www.mcgill.ca/">麦吉尔大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/4_2.png" alt="Thumbnail image"><div><a href="https://www.utoronto.ca/">多伦多大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/4_3.png" alt="Thumbnail image"><div><a href="http://www.queensu.ca/">女王大学</a></div></td>
+                         <td width="175"><img class="img-thumbnail" src="imag/4_4.png" alt="Thumbnail image"><div><a href="https://www.ubc.ca/">英属哥伦比亚大学大学</a></div></td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane" id="tab4">更多页面</div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:40px">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img class="first-slide" src="imag/carousel_1.jpg" alt="First slide">
+                        </div>
+                        <div class="item">
+                          <img class="second-slide" src="imag/rousel_2.jpg" alt="Second slide">
+                        </div>
+                        <div class="item">
+                          <img class="third-slide" src="imag/carousel_3.jpg" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+              </div>
+     	</div>    
+    </div>
+</div>
+   
+    <footer class="blog-footer">
+          <p>Copyright © 2017 youniversity All Rights Reserved</p>
+          <p>
+            <a href="#">Back to top</a>
+          </p>
+        </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
